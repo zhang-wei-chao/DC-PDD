@@ -89,7 +89,7 @@ def cal_met(pro_dis, lang, max_cha, a):
                 current_ids.append(input_id)
 
         x_pro = probs[indexes]
-        x_fre = fre_dis[input_ids[indexes]]  # 加 1 法
+        x_fre = fre_dis[input_ids[indexes]]
         ce = x_pro * np.log(1 / x_fre)
         ce[ce > a] = a
         pred["DC-PDD"] = -np.mean(ce)
