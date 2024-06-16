@@ -10,7 +10,6 @@ from pathlib import Path
 from tensor_parallel import TensorParallelPreTrainedModel
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
-openai.api_key = "XXX"  # your API key
 logging.getLogger().setLevel(logging.INFO)
 
 
