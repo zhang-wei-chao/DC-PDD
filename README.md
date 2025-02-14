@@ -11,7 +11,7 @@ we proposes DC-PDD to improve methods that directly rely on token probabilities 
 The PatentMIA dataset serves as a benchmark designed to evaluate pretraining data detection methods, specifically in detecting Chinese-language pretraining data from models that are open-source Chinese LLMs released between January 1, 2023 and March 1, 2024 (e.g., Qwen1.5)
 
 The dataset contains non-training and training data:
-- non-training data consists of text snippets crawled from Google Patent websites first published after March 1, 2024
+- non-training data includes text snippets crawled from Google Patent websites published after March 1, 2024.
 - training data includes text snippets crawled from Google Patent websites published before January 1, 2023.
 
 ## DC-PDD (& baselines)
