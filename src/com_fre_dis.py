@@ -53,7 +53,7 @@ if __name__ == "__main__":
     tokenizer = AutoTokenizer.from_pretrained(mod_pat, trust_remote_code=True)
     fre_dis = [0] * args.vob_siz
 
-    if args.ext_dat == "C4":
+    if args.ref_dat == "C4":
         for i in range(args.fil_num):
             iter = i
             while len(str(i)) < 5:
