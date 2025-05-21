@@ -5,7 +5,7 @@ This is the official repository for the paper [Pretraining Data Detection for La
 
 we proposes DC-PDD to improve methods that directly rely on token probabilities for pretraining data detection, which tend to misclassify non-training texts containing many common words as training texts. The key idea of DC-PDD is to calibrate the token probabilities and thereby make them more informative signals for detection. The calibration process is achieved by computing the cross-entropy (i.e., the divergence) between the token probability distribution and the token frequency distribution. To facilitate the evaluation of pretraining data detection for LLMs, we introduce a new benchmark named **PatentMIA**, specifically designed for Chinese-language pretraining data detection.
 
-![GitHub Logo](figures/DC-PDD.png)
+![GitHub Logo]
 
 ## PatentMIA
 The PatentMIA dataset serves as a benchmark designed to evaluate pretraining data detection methods, specifically in detecting Chinese-language pretraining data from models that are open-source Chinese LLMs released between January 1, 2023 and March 1, 2024 (e.g., Qwen1.5)
